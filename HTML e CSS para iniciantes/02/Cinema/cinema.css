@@ -1,0 +1,27 @@
+h2 {
+    line-height: 1cm;
+    font-size: 31px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    color:darkcyan;
+    line-height:0.8cm;
+    font-size: 25px;
+}
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2cm;
+    font-size: 40px;
+}
+
+body {
+    margin-left: 15px;
+}
+
+h2 a {
+    color:seagreen;
+}

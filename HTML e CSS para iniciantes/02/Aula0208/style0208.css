@@ -1,0 +1,15 @@
+p, a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    font-size: large;
+}
+
+.classe1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
