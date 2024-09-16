@@ -1,0 +1,1 @@
+O programa não irá funcionar se abrir ele localmente.
