@@ -1,0 +1,18 @@
+span {
+    background-color:  beige;
+    display: inline-block;
+}
+
+span{
+    padding: 30px 10px 30px 10px;
+    margin: 10px 40px 10px 40px;
+    border: 1px solid black;
+    border-width: 10px 20px 10px 20px;
+    border-radius: 45px;
+}
+
+h1 {
+    writing-mode:vertical-rl;
+    margin-top: 10px;
+    background-color: beige;
+}
