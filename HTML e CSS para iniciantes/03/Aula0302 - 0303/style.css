@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item {
+
+    padding: 10px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 5px;
+    display: grid;
+
+}
+
+.nome {
+    margin: 0px;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.compra {
+    padding: 10px 20px;
+    background-color:rgb(180, 103, 253);
+    border: 0px solid black;
+    border-radius: 4px;
+}
+
+.compra a {
+    text-decoration: none;
+    color: black;
+
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
