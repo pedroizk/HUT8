@@ -1,0 +1,31 @@
+h1 {
+    background: lightblue;
+    margin: 0;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.a3 {
+    position: fixed;
+    top: 30px;
+    z-index: 1;
+    background-color: lightgoldenrodyellow;
+}
+
+.a2 {
+    position: absolute;
+    top: 70px;
+    z-index: 4;
+    background-color: lightcoral;
+}
+
+body {
+    height: 10000000px;
+}
+
+.a1 {
+    position: relative;
+    top: 10px;
+    z-index: 5;
+}

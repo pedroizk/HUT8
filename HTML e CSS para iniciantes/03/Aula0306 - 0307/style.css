@@ -1,0 +1,36 @@
+.testFlex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    border: 1px solid lightgrey; 
+    background-color: lightgray;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1; /* Juncao de todos os outros abaixo*/
+    flex-shrink: 1; /* Defune o quanto o item deve dimnuir*/
+    flex-grow: 0; /* Define o espaco base de um elemento, nao o diminuindo mais que isso se o valor do flex-basis for zero*/
+    flex-basis: 0; /* Define que os itens devem ter o mesmo tamanho*/
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.Explicacao {
+    background-color: beige;
+    border-radius: 8px;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.central {
+    width: 1500px;
+}
