@@ -1,0 +1,23 @@
+body {
+    font-size: 2rem;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::before {
+    display: block;
+    content: "";
+    background-color: violet;
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    top: 38px;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+p::first-letter {
+    color: tomato;
+}

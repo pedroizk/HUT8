@@ -1,0 +1,26 @@
+.principal{
+    height: 600px;
+    background-color: aquamarine;
+    background-image: url(./img/Design\ sem\ nome\(1\).png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+h1 {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+}
+
+.pattern {
+    height: 300px;
+    background-color: tomato;
+    background-image: url(./img/Design\ sem\ nome\(4\).svg);
+    background-repeat: repeat;
+    background-size:4px;
+    
+}
