@@ -164,8 +164,15 @@ a {
     left: -155px;
 }
 
-.branco {
+.rodape {
     height: 350px;
+    text-align: center;
+    align-content: center;
+}
+
+.rodape h3 {
+    align-self: center;
+    color:#5e5f61 ;
 }
 
 .detalhe {
