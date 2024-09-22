@@ -1,0 +1,17 @@
+body  {
+    display: grid;
+    font-size: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    gap: 1rem;
+}
+
+img {
+    width: 450px;
+}
+
+h1 {
+    display: block;
+    grid-template-rows: 1/-1;
+}
+
