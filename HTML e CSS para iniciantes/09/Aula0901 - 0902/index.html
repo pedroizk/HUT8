@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula0901</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <form action="./">
+             <label for="Nome">Login </label>
+             <input type="text" id="login" name="login" required>
+
+             <label for="senha">Senha </label>
+             <input type="password" id="senha" name="senha" required>
+             
+             <label for="CPF">CPF </label>
+             <input type="CPF" id="CPF" name="CPF" placeholder="000.000.000-00">
+
+             <label for="email">Email </label>
+             <input type="email" id="email" name="email" required>
+
+             <label for="aniversario">Aniversário </label>
+             <input type="date" id="aniversario" name="aniversario" required>
+
+            <div class="checkbox">
+            <label for="termos">Aceito os termos da empresa e condições da empresa</label>
+            <input type="checkbox" id="termos" name="termos" label="aceito">
+            </div>
+
+            <div class="checkbox">
+                <label for="mark">Desejo receber novidades sobre a empresa.</label>
+                <input type="checkbox" id="mark" name="mark" label="aceito">
+                </div>
+
+             <button>Enviar</button>
+        </form>
+
+        <label for="parcelas"></label>
+        <select name="parcelas" id="parcelas">
+            <option>1x de R$ 200</option>
+            <option>2x de R$ 100</option>
+            <option>4x de R$ 50</option>
+        </select>
+
+        <label for="mensagem">
+            Mensagem
+        </label>
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+    </body>
+</html>

@@ -1,0 +1,17 @@
+Nessa aula aprendemos sobre outros seletores.
+
+Seletores de atributos: -> os seletores de atributo servem para selecionar elementos
+com atributos específicos. Por exemplo, um elemento com required pode ser selecionado
+no CSS utilizando [required].
+
+Seletores avançados: -> 
+
+Sinal de >, esse sinal seleciona apenas os elementos filhos principais 
+de algum elemento. Por exemplo, <div> <p></p> </div> para selecionar o p e não elementos
+de alguma div interior a ela, vc utiliza div > p.
+
+Sinal de +, esse sinal seleciona apenas elementos que seguirem um certo padrão.
+Por exemplo, p + p seleciona apenas os elementos p que tiverem um p na sua frente.
+
+Sinal de *, seleciona todos elementos do site.
+

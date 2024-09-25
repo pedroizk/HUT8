@@ -1,0 +1,11 @@
+Aula0901 P1 e P2:
+- <form>: Cria um formulário precisa receber  uma action
+- <input>: Cria um input para o usuário, tem vários tipos textp, senha, email, data etc..
+- <label>: cria um label para um determinado input precisa conter o for=
+
+Aula0901 P3:
+- <checkbox>: Aprendemos a usar a checkbox e também como ela funciona. Também aprendemos a usar a funcionalidade RADIO.
+
+Aula0901 P4:
+- <select>: Define um tipo de botão no qual vairas opções pré definidas podem ser selecionadas
+- <textarea>: Define um lugar para escrever um texto no site

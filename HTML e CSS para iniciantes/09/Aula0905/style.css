@@ -1,0 +1,314 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --fundo1: #f7f7f7;
+        --fundo2: ##ffffff;
+        --texto: #13283c;
+        --sub: rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fundo1: #111;
+        --fundo2: #000;
+        --texto: #ffffff;
+        --sub: rgba(255, 255, 255, 0.2);
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 300px fit-content fit-content;
+    background-color: var(--fundo1);
+
+}
+
+.logo {
+    place-self: center center;
+    width: 400px;
+    color: rgba(255,255,255, 1);
+    
+}
+
+.flexbox {
+    display: flex;
+    gap: 40px;
+    place-self: center center;
+    margin-bottom: 70px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    display: flex;
+    gap: 40px;
+    place-self: center center;
+}
+
+nav {
+    place-self: center center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--texto);
+    background-color: var(--fundo2);
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px (var(--fundo2));
+}
+
+a:hover {
+    background-color: var(--texto);
+    color:var(--fundo1);
+    transition: .3s;
+}
+
+a:focus {
+    background-color: rgb(160, 69, 69); 
+    color: var(--fundo2);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+    align-content: center;
+    color: var(--texto);
+
+
+}
+
+.e1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: center;
+    gap: 20px;
+    background-color: var(--fundo2);
+
+
+
+}
+.texto1 {
+    text-align: end;
+    text-wrap:wrap;
+    overflow-wrap: break-word;
+    max-width: none;
+    width: 100%;
+    max-width: 43ch;
+    color: var(--texto);
+
+
+}
+.vermais {
+    background-color: rgb(160, 69, 69);
+    color: var(--fundo2);
+    padding: 10px 25px 10px 25px;
+    margin: 0px;
+    width: fit-content;
+    border: none;
+    display: inline-block;
+    
+
+}
+
+.title1 {
+    margin: 0px;
+    
+}
+
+.tilte1 h1 {
+    font-weight: bold;
+}
+
+.title1, .texto1 ,.vermais {
+    margin-right: 40px;
+}
+
+/* CONTENT GRID 2 PARTE 2*/
+
+
+
+.porsche {
+    width: 600px;
+
+}
+
+.e3 {
+    background-color:var(--fundo1);
+    align-content: center;
+}
+
+.vantagem {
+    color: var(--sub);
+    font-size: 65px;
+    text-align: end;
+    margin-right: 40px;
+    
+
+}
+
+.e4 {
+    background-color: var(--fundo2);
+    display: grid;
+    grid-template-rows: 125px 125px 125px;
+    align-content: center;
+    gap: 10px;
+
+}
+
+
+.e4 img {
+    width: 175px;
+    margin: 0;
+}
+
+.imgp1 {
+    display: flex;
+    align-items: start;
+    align-items: top;
+    position: relative;
+    top: -25px;
+    fill: black;
+}
+
+
+.caractTitle {
+    position: relative;
+    left: -55px;
+    top: 18px;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 22;
+
+}
+
+.caractText {
+    width: 300px;
+    position: relative;
+    top: 60px;
+    left: -175px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#ut {
+    left: -155px;
+}
+
+.rodape {
+    height: 350px;
+    text-align: center;
+    align-content: center;
+}
+
+.rodape h3 {
+    align-self: center;
+    color:#5e5f61 ;
+}
+
+.title1::before {
+    content: "";
+    width: 60px;
+    height: 11px;
+    background: rgb(160, 69, 69);
+    display: inline-block;
+    position: relative;
+    top: -85px;
+    left: 305px;
+}
+
+
+
+@media (max-width: 1000px)
+{
+    .title1, .texto1 ,.vermais {
+        margin-right: 0px;
+    }
+    .content{
+        grid-template-columns: 75vh;
+        grid-template-rows: 50vh 50vh 50vh 50vh;
+
+    }
+
+    .flexbox ul{
+        gap: 15px;
+    }
+    
+    a {
+        font-size: 32px;
+        gap: px;
+        margin: 0px;
+    }
+
+    .e1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content max-content;
+
+    }
+    .title1 {
+        font-size: 55px;
+        font-weight: 800;
+        justify-self: center;
+    }
+
+    .texto1 {
+        font-size: 25px;
+        text-align: center;
+        width: 30ch;
+        place-self: center center;
+    }
+
+    .title1::before{
+        display: none;
+    }
+
+    .vermais {
+        font-size: 29px;
+        padding: 20px 30px 20px 30px;
+        text-align: center;
+        place-self: center center;
+
+    }
+
+    .e2 img{
+        width: 75vh;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .e3 h1 {
+        text-align: center;
+    }
+
+    .caractText, .caractTitle {
+        text-align: center;
+    }
+
+    .caractText{
+        font-size: 1.1rem;
+    }
+
+    .caractTitle, .imgp1 {
+        position: relative;
+        right: -65px;
+        left: auto;
+        font-size: 1.7rem;
+        justify-self: center;
+    }
+
+    .e4 {
+
+        place-items: center center;
+        place-content: center center;
+        gap: 20px;
+    }
+
+
+}

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 10px 20px;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+}
+
+input {
+    margin: 10px 0px;
+    font-size: 2rem;
+    border-radius: 5px;
+    display: block;
+}
+
+button {
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.termos #termos {
+    padding: 500px;
+}
+
+.checkbox input {
+    width: 20px;
+    height: 20px;
+    grid-column: 1;
+}
+
+.checkbox label{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.4rem;
+}
+
+.checkbox {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 1.4rem;
+}
+
+textarea, label {
+    font-size: 1.2rem;
+    margin: 10px 20px;
+    font-size: 1.4rem;
+}

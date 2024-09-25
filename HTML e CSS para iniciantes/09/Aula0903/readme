@@ -1,0 +1,8 @@
+Especificidade:
+
+o CSS regula a importância da característica dada a um objeto pela especificidade.
+Quando você passa o mouse por cima de um item no css vão aparecer 03 números (0, 0 ,0).
+Sendo que, (1, 0, 0) é mais específico que (0, 0, 1). Então, um elemento selecionado por
+dois IDs vai ser sempre priorizado na hora de estilizar do que um com apenas um ID, mesmo que
+esse com apenas um ID venha depois. Por fim, a ordem de especificidade é:
+tag -> + de 01 tag -> classe -> id  

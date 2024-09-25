@@ -1,0 +1,38 @@
+Propriedades customizadas: 
+
+São basicamente variáveis, tem scoop tal qual uma varíavel em qualquer linguagem de 
+programação. Com a utilização de -- você pode introduzir uma varíavel.
+
+html: { 
+--roxo: #84e;
+}
+
+ou
+
+:root {
+    --roxo: #84e;
+}
+
+Com essa sintaxe, o roxo agora pode ser utilizado em qualquer tag dentro do html,
+se por exemplo você estiver dentro de uma div, ao invés de usar backgroud-color: #84e;
+da para usar backgroud-color: var(--roxo); -> isso torna mais fácil o entendimento e a 
+padronização do site.
+
+Outras utilizações, da para utilizar o @media para redefinir algumas características do site.
+Imagine que foram definidas dois modos de site o LIGHT e o DARK.  
+
+@media (prefers-colo-scheme: light) {
+    :root {
+        --fundo: #fff;
+        --texto-1: #111;
+        --texto-2: #444;
+    }
+}
+
+@media (prefers-colo-scheme: dark) {
+    :root {
+        --fundo: #222;
+        --texto-1: #eee;
+        --texto-2: #bbb;
+    }
+}

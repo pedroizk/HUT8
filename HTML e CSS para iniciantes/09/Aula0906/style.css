@@ -1,0 +1,52 @@
+.text-grande {
+    font-size: 3rem;
+}
+
+.text-medio {
+    font-size: 2rem;
+}
+
+.text-pequeno {
+    font-size: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    gap: 60px;
+}
+
+.azul {
+    color: #06f;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cinza {
+    color: gray;
+}
+
+.margin {
+    margin: 40px 40px;
+}
+
+.text-size {
+    width: 40ch;
+}
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #06f;
+    color: white;
+}
+
+.normal {
+    font-weight: normal;
+}
