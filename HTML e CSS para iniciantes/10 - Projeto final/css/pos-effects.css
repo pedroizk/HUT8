@@ -1,0 +1,19 @@
+.ulLinks li a:hover {
+    /* color: #9c9c9c; */
+    color: #ff3131; 
+    cursor: pointer;
+    transition: .1s;
+}
+
+.content button:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    transition: .3s;
+}
+
+
+.main2Bike1:hover h2::before
+     {
+        width: 40px;
+    }

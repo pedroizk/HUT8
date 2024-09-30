@@ -19,7 +19,7 @@ nav {
     gap: 20px;
 }
 
-.ulLinks li {
+.ulLinks li a{
     font-size: 1.5rem;
     color: white;
 

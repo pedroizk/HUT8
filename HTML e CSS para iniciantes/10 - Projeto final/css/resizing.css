@@ -11,6 +11,14 @@
         width: 550px;
         height: 680px;
     }
+
+    .main2Bike1 img {
+        width: 500px;
+        height: 600px;
+        border-radius: 4px;
+    }
+
+
 }
 
 @media (max-width: 1600px) {
@@ -25,6 +33,10 @@
     .content button {
         padding: 20px 30px;
         font-size: 1.5rem;
+    }
+
+    .catalogBikes h1 {
+        font-size: 4rem;
     }
 }
 
@@ -41,6 +53,10 @@
         padding: 15px 25px;
         font-size: 1.2rem;
     }
+
+    .catalogBikes h1 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 1400px)
@@ -53,6 +69,16 @@
     .imgMain .bikeImg {
         width: 450px;
         height: 580px;
+    }
+
+    .main2Bike1 img {
+        width: 400px;
+        height: 500px;
+        border-radius: 4px;
+    }
+
+    .imgMain2 {
+        gap: 2.5vh;
     }
 }
 
@@ -80,6 +106,9 @@
         margin-left: 10vh;
     
     }
+    .catalogBikes h1 {
+        margin-left: 10vh;
+    }
 }
 
 @media (max-width: 1050px)
@@ -101,9 +130,11 @@
     gap: 0.5rem;
 }
 
-.ulLinks li {
+.ulLinks li a {
     font-size: 1rem;
 }
+
+
 }
 
 @media (max-width: 950px)
@@ -123,23 +154,33 @@
         font-weight: 400;
     }
 
-    .ulLinks li{
-        font-size: 1.5rem;
-
+    .ulLinks li a{
+        font-size: 0.9rem;
+        background-color: #ff3131;
+        padding: 10px 20px;
+        border-radius: 4px;
     }
 
     .gridMain {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: fit-content 300px;
+        grid-template-rows: fit-content fit-content;
         place-items: auto center;
     }
 
     .content {
-        margin-top: 2vh;
+        margin-top: 60px;
         justify-self: center;
         height: fit-content;
-        margin-bottom: 2vh;
+        margin-bottom: 40px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
     }
 
     .content h1, p{
@@ -148,7 +189,7 @@
 
     .content button {
         padding: 20px 25px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         place-self: auto center;
         display: inline-block;
         margin-left:6vh;
@@ -157,7 +198,7 @@
 
     .imgMain .bikeImg {
         width: 100%;
-        max-height: 70%;
+        max-height: 60%;
     }
 
     .header {
@@ -169,10 +210,175 @@
 
         margin-right: 5vh;
         margin-left: 5vh;
-    
+        
     }
 
     .catalogBikes {
-        display: none;
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: 0px;
     }
+
+    .catalogBikes h1{
+        text-align: center;
+        place-self: auto center;
+        margin: 0px 0px;
+        font-size: 2rem;
+    }
+
+    .main2Bike1 {
+        display: grid;
+        overflow-x: scroll;
+    }
+
+    .main2Bike1 img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .main2Bike1 h2 {
+        margin-top: 1rem;
+        margin-left: 0.5vh;
+        font-size: 1.3rem;
+    }
+    
+
+    .main2Bike1 h4{
+        font-size: 1rem;
+        margin: 0px 0px 0px 2vh;
+        font-weight: 400;
+        color: #77797c; 
+    }
+}
+
+@media (max-width: 420px) {
+
+    html {
+        max-width: 420px;
+    }
+    body {
+        max-width: 420px;
+    }
+    .header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 130px 80px;
+        place-items: center center;
+    }
+
+    .imgLogo {
+        width: 100px;
+    }
+
+    .ulLinks {
+        font-weight: 400;
+    }
+
+    .ulLinks li a{
+        font-size: 0.7rem;
+        background-color: #ff3131;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content fit-content;
+        place-items: auto center;
+    }
+
+    .content {
+        margin-top: 40px;
+        justify-self: center;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .content h1, p{
+        text-align: center;
+    }
+
+    .content button {
+        padding: 20px 25px;
+        font-size: 0.7rem;
+        place-self: auto center;
+        display: inline-block;
+        margin-left:2vh;
+    }
+
+    .imgMain {
+        height: fit-content;
+    }
+
+    .imgMain .bikeImg {
+        margin-left: 20px;
+        width: 90%;
+        max-height: 300px;
+    }
+
+    .header {
+        margin: 0;
+    }
+
+    .gridMain{
+        margin: 0;
+    }
+
+    .catalogBikes {
+        display: grid;
+        grid-template-rows: 40px fit-content;
+        margin: 0px;
+    }
+
+
+    .catalogBikes h1{
+        text-align: center;
+        place-self: center center;
+        margin: 0;
+        margin-top: 5vh;
+        font-size: 2rem;
+    }
+
+    .main2Bike1 {
+        display: grid;
+        overflow-x: scroll;
+    }
+
+    .main2Bike1 img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .main2Bike1 h2 {
+        margin-top: 1rem;
+        margin-left: 0.5vh;
+        font-size: 1.3rem;
+    }
+    
+
+    .main2Bike1 h4{
+        font-size: 1rem;
+        margin: 0px 0px 0px 2vh;
+        font-weight: 400;
+        color: #77797c; 
+    }
+
+    .main2Bike1 h2::before { 
+        width: 10px;
+        height: 8px;
+    }
+    .main2Bike1:hover h2::before
+     {
+        width: 20px;
+    }
+
 }

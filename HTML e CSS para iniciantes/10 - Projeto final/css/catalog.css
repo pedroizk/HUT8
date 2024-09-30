@@ -32,15 +32,14 @@
 }
 
 .main2Bike1 h2::before { 
-    content: "------";
-    top: -7px;
-    left: -13px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 22px;
+    margin-right: 8px;
+    margin-bottom: 5px;
     background-color: #ff3131;
-    color: #ff3131;
-    position: relative;
-    font-size: 1rem;
-    letter-spacing: -2px;
-    background-repeat: no-repeat;
+    transition: width 0.2s;
 
 }
 
