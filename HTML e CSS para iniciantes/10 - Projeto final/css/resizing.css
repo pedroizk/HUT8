@@ -1,0 +1,178 @@
+
+
+
+@media (max-width: 1750px) {
+    main {
+        background-color: black;
+        height: 600px;
+    }
+
+    .imgMain .bikeImg {
+        width: 550px;
+        height: 680px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .content h1 {
+        font-size: 4rem;
+    }
+
+    .content p{
+        font-size: 2rem;
+    }
+
+    .content button {
+        padding: 20px 30px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1530px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p{
+        font-size: 1.4rem;
+    }
+
+    .content button {
+        padding: 15px 25px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1400px)
+{
+    main {
+        background-color: black;
+        height: 500px;
+    }
+
+    .imgMain .bikeImg {
+        width: 450px;
+        height: 580px;
+    }
+}
+
+
+@media(max-width: 1300px)
+{
+    main {
+        background-color: black;
+        height: 450px;
+    }
+
+    .imgMain .bikeImg {
+        width: 400px;
+        height: 500px;
+    }
+
+    .header {
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+    .gridMain{
+
+        margin-right: 10vh;
+        margin-left: 10vh;
+    
+    }
+}
+
+@media (max-width: 1050px)
+{
+.content h1 {
+    font-size: 2.2rem;
+}
+
+.content p{
+    font-size: 1.1rem;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.gridMain {
+    gap: 0.5rem;
+}
+
+.ulLinks li {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 950px)
+{
+    .header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 130px 80px;
+        place-items: center center;
+    }
+
+    .imgLogo {
+        width: 130px;
+    }
+
+    .ulLinks {
+        font-weight: 400;
+    }
+
+    .ulLinks li{
+        font-size: 1.5rem;
+
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content 300px;
+        place-items: auto center;
+    }
+
+    .content {
+        margin-top: 2vh;
+        justify-self: center;
+        height: fit-content;
+        margin-bottom: 2vh;
+    }
+
+    .content h1, p{
+        text-align: center;
+    }
+
+    .content button {
+        padding: 20px 25px;
+        font-size: 0.9rem;
+        place-self: auto center;
+        display: inline-block;
+        margin-left:6vh;
+    }
+
+
+    .imgMain .bikeImg {
+        width: 100%;
+        max-height: 70%;
+    }
+
+    .header {
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .gridMain{
+
+        margin-right: 5vh;
+        margin-left: 5vh;
+    
+    }
+
+    .catalogBikes {
+        display: none;
+    }
+}
