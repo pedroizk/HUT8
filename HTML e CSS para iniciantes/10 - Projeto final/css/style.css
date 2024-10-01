@@ -2,8 +2,8 @@
 @import "./main.css";
 @import "./catalog.css";
 @import "./pos-effects.css";
-@import "./resizing.css";
 @import "./esteira.css";
+@import "./resizing.css";
 
 html {
     width: 100%;
