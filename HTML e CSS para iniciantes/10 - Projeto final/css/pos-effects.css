@@ -1,9 +1,23 @@
-.ulLinks li a:hover {
-    /* color: #9c9c9c; */
-    color: #ff3131; 
-    cursor: pointer;
-    transition: .1s;
+.ulLinks li::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0px;
+    background: white;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  
+  .ulLinks li:hover::after {
+    width: 12vh;
+  }
+
+.ulLinks a {
+    display: inline-block;
+    position: relative;
 }
+
 
 .content button:hover {
     background-color: white;
@@ -12,8 +26,25 @@
     transition: .3s;
 }
 
+.content2 button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.content2 button:hover a {
+  color: black;
+}
+
 
 .main2Bike1:hover h2::before
+     {
+        width: 40px;
+    }
+
+.variadosItens:hover h2::before
      {
         width: 40px;
     }

@@ -1,9 +1,10 @@
 @import "./header.css";
 @import "./main.css";
 @import "./catalog.css";
-@import "./pos-effects.css";
 @import "./esteira.css";
+@import "./pos-effects.css";
 @import "./resizing.css";
+@import "./variados.css";
 
 html {
     width: 100%;

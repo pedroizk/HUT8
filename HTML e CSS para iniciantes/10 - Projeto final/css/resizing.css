@@ -310,6 +310,14 @@
         margin: 0px 10vh;
     }
 
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
+
 }
 
 @media (max-width: 790px)
@@ -319,6 +327,14 @@
         height: 600px;
         top: -50px;
     }
+
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
 }
 
 @media (max-width: 420px) {
@@ -487,5 +503,12 @@
     
     }
 
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
 
 }

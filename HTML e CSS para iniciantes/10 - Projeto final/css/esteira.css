@@ -1,9 +1,10 @@
 #esteira {
     width: 100%;
+    min-height: fit-content;
     height: 700px;
     display: grid;
     grid-template-rows: 300px 600px;
-
+    
 }
 
 .esteiraGrid {
@@ -31,7 +32,7 @@
 
 .content2 h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .content2 h1 span {
