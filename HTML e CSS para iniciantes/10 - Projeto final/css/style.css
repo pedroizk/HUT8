@@ -3,8 +3,9 @@
 @import "./catalog.css";
 @import "./esteira.css";
 @import "./pos-effects.css";
-@import "./resizing.css";
 @import "./variados.css";
+@import "./footer.css";
+@import "./resizing.css";
 
 html {
     width: 100%;

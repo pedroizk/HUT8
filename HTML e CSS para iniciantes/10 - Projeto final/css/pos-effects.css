@@ -10,7 +10,7 @@
   }
   
   .ulLinks li:hover::after {
-    width: 12vh;
+    width:6vw;
   }
 
 .ulLinks a {

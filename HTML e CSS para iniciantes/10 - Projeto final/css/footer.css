@@ -1,0 +1,152 @@
+.footer {
+    display: block;
+    background-color: #111111;
+    height: 500px;
+    width: 100%;
+}
+
+.footerGrid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 600px 400px  1fr;
+    grid-template-rows: 100%;
+}
+
+
+.imgFooter {
+    display: grid;
+    margin-left: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    grid-template-rows: auto auto;
+
+}
+
+.imgFooter img {
+    max-width: 250px;
+}
+
+.imgFooter p {
+    color: #77797c;
+    font-weight: 200;
+    align-self:self-end;
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.contatoFooter {
+        margin-left: 10vh;
+        margin-top: 9vh;
+        margin-bottom: 5vh;
+        grid-template-rows: auto auto;
+}
+
+.contatoFooter h1 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px 15px 6px;
+    gap: 15px;
+  }
+  
+
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: #004aad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    border-radius: 30px;
+  }
+  
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+
+  .containerFour:hover {
+    background-color: #128c7e;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  .inf {
+    margin-left: 10vh;
+    margin-top: 9vh;
+    margin-bottom: 5vh;
+    grid-template-rows: auto auto;
+}
+
+  .inf h1{
+        color: #fa7070;
+        font-weight: 500;
+        margin-bottom: 30px;
+  }
+
+  .inf h1 span {
+    color:#466da1;
+  }
+
+  .inf h2 {
+    color: #77797c;
+    font-weight: 300;
+    line-height: 35px;
+    
+  }
+
