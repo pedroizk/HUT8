@@ -1,0 +1,30 @@
+
+
+.bikeBikes {
+    display: inline-block;
+    width: 450px;
+    object-fit: cover;
+    height: 450px;
+    border-radius: 5%;
+    align-content: center;
+}
+
+
+
+.main2, .b {
+
+    padding-top: 50px;
+}
+
+.b {
+    background-color: rgb(19, 18, 18);
+}
+
+
+.inf3 {
+    justify-self: center;
+}
+
+.abac {
+    justify-items: center;
+}

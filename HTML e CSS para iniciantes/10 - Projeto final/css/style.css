@@ -6,6 +6,7 @@
 @import "./variados.css";
 @import "./footer.css";
 @import "./resizing.css";
+@import "./bikes.css";
 
 html {
     width: 100%;
