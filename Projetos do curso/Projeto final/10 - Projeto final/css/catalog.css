@@ -1,0 +1,51 @@
+.catalogBikes {
+    height: 800px;
+    margin-left: 2vh;
+}
+
+.catalogBikes h1{
+    font-size: 5rem;
+    margin: 5vh 20vh 10vh 20vh;
+}
+
+.catalogBikes span {
+    color: #ff3131;
+}
+
+.imgMain2 {
+    display: flex;
+    gap: 3.5vh;
+    overflow-x:scroll;
+}
+
+.main2Bike1 img {
+    width: 470px;
+    height: 576px;
+    border-radius: 4px;
+}
+
+.main2Bike1 h2 {
+    margin-top: 3vh;
+    font-size: 2.4rem ;
+    margin-left: 2vh;
+    position: relative;
+}
+
+.main2Bike1 h2::before { 
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 22px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    background-color: #ff3131;
+    transition: width 0.2s;
+
+}
+
+.main2Bike1 h4{
+    font-size: 1.8rem;
+    margin: 2vh 0px 0px 8vh;
+    font-weight: 400;
+    color: #77797c; 
+}

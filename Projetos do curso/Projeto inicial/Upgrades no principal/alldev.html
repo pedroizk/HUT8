@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!-- O que foi refatorado:
+    - Botões agora possuem hover e focus
+    - O header agora pode ser encontrado como <nav>
+    - O conteúdo principal agora está na <main>
+    - O rodapé está dentro do footer
+    - O detalher foi feito com pseudoElements
+-->
+
+
+
+<html>
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1.0" >
+        <title>Projeto 03</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- 1. Usar o body de grid
+             2. Primeira row usar so pra marca
+             3. Segunda row fazer um flexbox com os links
+             4. fazer uma outra div -> nela dividir 3m 4 sem margem e por os conteudos -->
+
+    <img src="./img/ECar(2).svg" alt="logo" class="logo">
+    <nav>
+    <div class="flexbox">
+        <ul>
+        <li><a href="/">SOBRE</a></li>
+        <li><a href="/">PRODUTOS</a></li>
+        <li><a href="/">LOJAS</a></li>
+        <li><a href="/">CONTATO</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+    <div class="content">
+        <div class="e1" alt="Conteúdo principal, botão ver mais">
+            <h1 class="title1">Carros de Luxo</h1>
+            <p class="texto1"> Os carros vendidos na V-Car são importados de países como os Estados Unidados
+                Alemanha, Itália... Garantimos extrema qualidade e seguraça. 
+            </p>
+            <a class="vermais" href="/">VER MAIS</a>
+           
+        </div>
+        <div class="e2">
+            <img src="./img/Design sem nome(1).png" alt="carro luxuoso" class="porsche">
+        </div>
+        <div class="e3">
+            <h1 class="vantagem">VANTAGENS <br> V-CAR</h1>
+        </div>
+        <div class="e4">
+            <div class="imgp1">
+
+            <img src="./img/Design sem nome(2).svg" class="velocidade">
+            <h2 class="caractTitle">Velocidade</h2>
+            <p class="caractText">Permite que você tenha uma experiência única, experimente viver seus sonhos em alta velocidade.</p>
+        </div>
+        <div class="imgp1">
+            <img src="./img/Design sem nome(1).svg" class="seguranca">
+            <h2 class="caractTitle">Segurança</h2>
+            <p class="caractText">Garanta sua tranquilidade com proteção em cada detalhe, viva cada momento com confiança.</p>
+        </div>
+        <div class="imgp1">
+            <img src="./img/Design sem nome.svg" class="conforto">
+            <h2 class="caractTitle">Conforto</h2>
+            <p class="caractText" id="ut">Desfrute de uma experiência acolhedora, onde cada instante é pensado para seu bem-estar.</p>
+            </div>
+        </div>
+        </div>
+        </main>
+        </div>
+    </div>
+    <footer>
+    <div class="rodape">
+        <h3>V-Car Garage. Alguns direitos reservados</h3>
+    </div>
+    </footer>
+    </body>
+</html>

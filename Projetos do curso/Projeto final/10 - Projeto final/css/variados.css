@@ -1,0 +1,94 @@
+.variados {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 700px;
+    height: 900px;
+    min-height: fit-content;
+}
+
+.itensBox {
+    margin-top: 10vh;
+    margin-left: 2vh;
+    display: flex;
+    gap: 30px;
+    height: fit-content;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+
+.variadosItens img {
+    object-fit: cover;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.variadosItens {
+    background-color: #f0f0f0;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.variados h1 {
+    font-size: 5rem;
+    margin: 12vh 0vh 10vh 20vh;
+    
+}
+
+.variados span {
+    color: #ff3131;
+}
+
+.variadosItens .pancada {
+    object-fit: cover;
+    width: 150px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.variadosItens .ciclo {
+    width: 220px;
+    height: 320px;
+    margin-left: 100px;
+}
+
+.variadosItens .luva {
+    width: 350px;
+
+}
+
+.variadosItens {
+    width: 400px;
+    height: 500px;
+    max-width: 500px;
+}
+
+.variadosItens h2 {
+    margin-top: 3vh;
+    font-size: 2.4rem ;
+    margin-left: 0vh;
+    position: relative;
+    max-width: 20ch;
+}
+
+.variadosItens h2::before { 
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 22px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    background-color: #004aad;
+    transition: width 0.2s;
+
+}
+
+.variadosItens h4{
+    font-size: 1.8rem;
+    margin: 1vh 0px 0px 5vh;
+    font-weight: 400;
+    color: #77797c; 
+}

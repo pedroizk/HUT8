@@ -1,0 +1,652 @@
+
+
+
+@media (max-width: 1750px) {
+    main {
+        background-color: black;
+        height: 600px;
+    }
+
+    .imgMain .bikeImg {
+        width: 550px;
+        height: 680px;
+    }
+
+    .main2Bike1 img {
+        width: 500px;
+        height: 600px;
+        border-radius: 4px;
+    }
+
+    #esteira {
+
+        height: 600px;
+        grid-template-rows: 300px 600px;
+    
+    }
+
+    .esteiraImg img {
+        width: 550px;
+        height: 700px;
+        top: -50px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .content h1 {
+        font-size: 4rem;
+    }
+
+    .content p{
+        font-size: 2rem;
+    }
+
+    .content button {
+        padding: 20px 30px;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 1530px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p{
+        font-size: 1.4rem;
+    }
+
+    .content button {
+        padding: 15px 25px;
+        font-size: 1.2rem;
+    }
+
+    .catalogBikes h1, .variados h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 1400px)
+{
+    main {
+        background-color: black;
+        height: 500px;
+    }
+
+    .imgMain .bikeImg {
+        width: 450px;
+        height: 580px;
+    }
+
+    .main2Bike1 img, .variadosItens img {
+        width: 400px;
+        height: 500px;
+        border-radius: 4px;
+    }
+
+    .imgMain2 {
+        gap: 2.5vh;
+    }
+}
+
+
+@media(max-width: 1300px)
+{
+    main {
+        background-color: black;
+        height: 450px;
+    }
+
+    .imgMain .bikeImg {
+        width: 400px;
+        height: 500px;
+    }
+
+    .header {
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+    .gridMain{
+
+        margin-right: 10vh;
+        margin-left: 10vh;
+    
+    }
+    .catalogBikes h1, .variados h1 {
+        margin-left: 10vh;
+    }
+
+    .catalogBikes h1, .variados h1 {
+        font-size: 3.5rem;
+    }
+
+    .content2 h3 {
+        font-size: 1.5rem;
+    }
+    
+    .content2 h1 {
+        font-size: 2.5rem;
+    }
+     
+    .content2 button {
+        padding: 15px 25px;
+    }
+
+    .content2 button a {
+        font-size: 1.2rem;
+    }
+    .content2 {
+        margin: 0px 10vh;
+    }
+
+    .footer img {
+        width: 200px
+    }
+
+    .contatoFooter h1 {
+        margin-left: 18px;
+    }
+
+    .footer h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer p {
+        font-size: 0.4rem;
+    }
+
+    .footerGrid {
+        grid-template-columns: 400px 300px  1fr;
+    }
+
+}
+
+@media (max-width: 1050px)
+{
+.content h1 {
+    font-size: 2.2rem;
+}
+
+.content p{
+    font-size: 1.1rem;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.gridMain {
+    gap: 0.5rem;
+}
+
+.ulLinks li a {
+    font-size: 1rem;
+}
+
+.esteiraImg img {
+    width: 400px;
+    height: 600px;
+    top: -50px;
+}
+#esteira {
+    grid-template-rows: 300px 500px;
+}
+
+}
+
+@media (max-width: 950px)
+{
+    .header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 130px 80px;
+        place-items: center center;
+    }
+
+    .imgLogo {
+        width: 130px;
+    }
+
+    .ulLinks {
+        font-weight: 400;
+    }
+
+    .ulLinks li a{
+        font-size: 0.9rem;
+        background-color: #ff3131;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content fit-content;
+        place-items: auto center;
+    }
+
+    .content {
+        margin-top: 60px;
+        justify-self: center;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content h1, p{
+        text-align: center;
+    }
+
+    .content button {
+        padding: 20px 25px;
+        font-size: 0.8rem;
+        place-self: auto center;
+        display: inline-block;
+        margin-left:6vh;
+    }
+
+
+    .imgMain .bikeImg {
+        width: 100%;
+        max-height: 60%;
+    }
+
+    .header {
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .gridMain{
+
+        margin-right: 5vh;
+        margin-left: 5vh;
+        
+    }
+
+    .catalogBikes {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: 0px;
+    }
+
+    .catalogBikes h1, .variados h1{
+        text-align: center;
+        place-self: auto center;
+        margin: 0px 0px;
+        font-size: 2rem;
+    }
+
+    .variados h1 {
+        margin-top: 20vh;
+    }
+
+    .main2Bike1 {
+        display: grid;
+        overflow-x: scroll;
+    }
+
+    .main2Bike1 img, .variadosItens img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .main2Bike1 h2, .variadosItens h2{
+        margin-top: 1rem;
+        margin-left: 0.5vh;
+        font-size: 1.3rem;
+    }
+    
+
+    .main2Bike1 h4, .variadosItens h4{
+        font-size: 1rem;
+        margin: 0px 0px 0px 2vh;
+        font-weight: 400;
+        color: #77797c; 
+    }
+
+    .content2 h3 {
+        font-size: 1rem;
+    }
+    
+    .content2 h1 {
+        font-size: 2rem;
+    }
+     
+    .content2 button {
+        padding: 10px 20px;
+    }
+
+    .content2 button a {
+        font-size: 1rem;
+    }
+    .content2 {
+        margin: 0px 10vh;
+    }
+
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
+
+      .variadosItens {
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .footer img {
+        width: 140px
+    }
+
+    .contatoFooter h1 {
+        margin-left: 30px;
+    }
+
+    .footer h1 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .footer p {
+        font-size: 0.7rem;
+    }
+
+    .inf h2 {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .footerGrid {
+        grid-template-columns: 300px 200px  1fr;
+    }
+
+}
+
+@media (max-width: 790px)
+{
+    .esteiraImg img {
+        width: 300px;
+        height: 600px;
+        top: -50px;
+    }
+
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
+      .imgFooter{
+        margin-left: 8vh;
+      }
+
+      .footerGrid {
+        grid-template-columns: 200px 200px  1fr;
+    }
+}
+
+@media (max-width: 620px)
+{
+
+    .footer {
+        margin-top: 150px;
+        display: inline-block;
+        width: 100%;
+    }
+    .imgFooter {
+        display: none;
+    }
+    .footerGrid {
+        grid-template-columns: auto auto;
+    }
+
+    .variadosItens .ciclo {
+        margin-left: 0px;
+    }
+
+    .variadosItens {
+        width: 250px;
+    }
+
+    .variadosItens img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .inf {
+        margin-left: 0px;
+    }
+    .esteiraGrid{
+        grid-template-columns: 100%;
+        grid-template-rows: 100% auto;
+    } 
+
+    .esteiraImg img{
+        width: 90%;
+        max-height: 300px;
+        margin-left: 20px;
+    }
+    .content2 h3 {
+        font-size: 1rem;
+    }
+    
+    .content2 h1 {
+        font-size: 1.7rem;
+    }
+     
+    .content2 button {
+        padding: 10px 20px;
+    }
+
+    .content2 button a {
+        font-size: 0.8rem;
+    }
+    .content2 {
+        margin: 0px 10vh;
+        text-align: center;
+    }
+
+    #esteira {
+        grid-template-rows: 100px 400px;
+    
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    html {
+        max-width: 420px;
+    }
+    body {
+        max-width: 420px;
+    }
+    .header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 130px 80px;
+        place-items: center center;
+    }
+
+    .imgLogo {
+        width: 100px;
+    }
+
+    .ulLinks {
+        font-weight: 400;
+    }
+
+    .ulLinks li a{
+        font-size: 0.7rem;
+        background-color: #ff3131;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: fit-content fit-content;
+        place-items: auto center;
+    }
+
+    .content {
+        margin-top: 40px;
+        justify-self: center;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .content h1, p{
+        text-align: center;
+    }
+
+    .content button {
+        padding: 20px 25px;
+        font-size: 0.7rem;
+        place-self: auto center;
+        display: inline-block;
+        margin-left:2vh;
+    }
+
+    .imgMain {
+        height: fit-content;
+        margin-left: 1vh;
+    }
+
+    .imgMain .bikeImg {
+        margin-left: 20px;
+        width: 90%;
+        max-height: 300px;
+    }
+
+    .header {
+        margin: 0;
+    }
+
+    .gridMain{
+        margin: 0;
+    }
+
+    .catalogBikes {
+        display: grid;
+        grid-template-rows: 40px fit-content;
+        margin: 0px;
+    }
+
+
+    .catalogBikes h1, .variados h1{
+        text-align: center;
+        place-self: center center;
+        margin: 0;
+        margin-top: 5vh;
+        font-size: 2rem;
+    }
+
+    .main2Bike1 {
+        display: grid;
+        overflow-x: auto;
+    }
+
+    .main2Bike1 img, .variadosItens img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .main2Bike1 h2, .variadosItens h2 {
+        margin-top: 1rem;
+        margin-left: 0.5vh;
+        font-size: 1.3rem;
+    }
+    
+
+    .main2Bike1 h4, .variadosItens h4{
+        font-size: 1rem;
+        margin: 0px 0px 0px 2vh;
+        font-weight: 400;
+        color: #77797c; 
+    }
+
+    .main2Bike1 h2::before, .variadosItens h2::before { 
+        width: 10px;
+        height: 8px;
+    }
+    .main2Bike1:hover h2::before, .variadosItens:hover h2::before
+     {
+        width: 20px;
+    }
+
+    .esteiraGrid{
+        grid-template-columns: 100%;
+        grid-template-rows: 100% auto;
+    } 
+
+    .esteiraImg img{
+        width: 90%;
+        max-height: 300px;
+        margin-left: 20px;
+    }
+
+    .content2 h3 {
+        font-size: 1rem;
+    }
+    
+    .content2 h1 {
+        font-size: 1.7rem;
+    }
+     
+    .content2 button {
+        padding: 10px 20px;
+    }
+
+    .content2 button a {
+        font-size: 0.8rem;
+    }
+    .content2 {
+        margin: 0px 10vh;
+        text-align: center;
+    }
+
+    #esteira {
+        grid-template-rows: 100px 400px;
+    
+    }
+
+    .ulLinks li::after {
+        color: black;
+      }
+      
+      .ulLinks li:hover::after {
+        display: none;
+      }
+
+}

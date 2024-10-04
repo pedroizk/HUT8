@@ -1,53 +1,39 @@
 
 
 body {
-    display: flex; 
-    flex-wrap:nowrap nowrap; 
-    height: 100vh; 
+    display: grid; 
+    height: 100%; 
     margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.ferrari {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
 
 img {
-    width: 150%; 
+    width: 600px; 
     height: 100%; 
     object-fit: cover; 
 }
 
 .information {
-    width: 50%;
     padding: 20px; 
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    row-gap: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+    display: grid;
+    grid-template-rows: 150px 350px 100px;
+    justify-items: center;
+
 }
 
 
 .title {
     background-color: #444444;
-    padding: 10px;
+    width: 500px;
     border-radius: 7px;
     margin-bottom: 20px;
-    width: 100%;
     text-align: center;
     border: 1px solid #C0C0C0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    width: 700px;
-    height: 200px;
+
     justify-content: center;
 
 
@@ -56,7 +42,7 @@ img {
 h1 {
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 70px;
+    font-size: 3rem;
 
 }
 
@@ -67,48 +53,40 @@ h1 {
     padding: 40px;
     border-radius: 20px;
     text-decoration: none;
-    font-size: 30px;
-    transition: background-color 0.3s;
-    width: 620px;
-    height: px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     align-content: center;
-    font-size: 45px;
-    margin-top: 120px;
+    font-size: 2rem;
     align-self: start;
-    
+    margin-top: 20px;
 }
 
-
-center {
-    font-size:  35px;
-    width: 700px;
+p {
+    font-size: 1.2rem;
+    width: 25ch;
     font-family: "Libre Franklin", sans-serif;
     color: rgb(116, 116, 116);
-    text-justify: center;
-    
+    text-align: center;
+    background-color: #dfdfdf;
+    width: fit-content;
+    border-radius: 40px;
+    box-shadow: 2px #333333;
+    padding: 20px;
 }
 
-.descript {
- background-color: #dfdfdf;
- display: inline-block;
- width: fit-content;
- padding: 10px;
- border-radius: 40px;
- box-shadow: 2px #333333;
- 
-}
+
+
 
 .cor1 {
-    width: 200px;
+    width: 100px;
     background-color: #009246;
     padding: 45px;
 
 }
 
 .cor2 {
-    width: 200px;
+    width: 100px;
     background-color: #F1F2F1;
     padding: 45px;;
 
@@ -116,8 +94,16 @@ center {
 }
 
 .cor3 {
-    width: 200px;
+    width: 100px;
     background-color: #CE2B37;
     padding: 45px;
 
+
+
+
+}
+
+
+.cores {
+    display: flex;
 }

@@ -1,0 +1,72 @@
+main {
+    background-color: black;
+    height: 700px;
+}
+
+.gridMain{
+
+    display: flex;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.content {
+    height: 450px;
+    margin-top: 10vh;
+}
+
+.content h1 {
+    color: white;
+    font-size: 4.5rem;
+    
+}
+
+.content h1 span{
+    color: #ff3131;
+}
+
+.content p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #c8c6c6;
+    font-size: 2rem;
+}
+
+.content button {
+    cursor:pointer;
+    padding: 25px 30px;
+    font-size: 1.5rem;
+    background-color: #004aad;
+    color: white;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+}
+
+.content button a {
+    color: white;
+}
+
+.content button:hover a{
+    color: black;
+    font-weight: normal;
+}
+
+
+.imgMain .bikeImg{
+  width: 700px;
+  height: 900px;
+  object-fit: cover;
+  border-radius: 4px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.imgMain .detalhe1 {
+    position: absolute;
+    z-index: 4;
+    width: 1000px;
+}

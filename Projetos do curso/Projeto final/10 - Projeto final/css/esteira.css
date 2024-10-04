@@ -1,0 +1,75 @@
+#esteira {
+    width: 100%;
+    min-height: fit-content;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 300px 600px;
+    
+}
+
+.esteiraGrid {
+    grid-row: 2;
+    width: 100%;
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+
+.content2 {
+    margin: 0px 20vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.content2 h3 {
+    color: #c8c6c8;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+
+.content2 h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.content2 h1 span {
+    color: #004aad;
+}
+
+.content2 button {
+    margin-top: 40px;
+    background-color: #004aad;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+
+.content2 button a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.temp {
+    height: 2000px;
+}
+
+.esteiraImg {
+    justify-self: center;
+}
+
+.esteiraImg img {
+    top: -90px;
+    position: relative;
+    width: 650px;
+    height: 800px;
+    object-fit: cover;
+    object-position:center ;
+    border-radius: 4px;
+}
