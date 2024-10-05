@@ -29,28 +29,38 @@
 
 @media (max-width: 1050px)
 {
+    .footerBack {
+        width: 100%;
+    }
+
     .footer {
         display:grid;
         grid-template-columns:1fr;
-        margin-left: 25vh;
-        margin-right: 20vh;
+        margin-left: 0;
+        margin-right: 0;
         gap: 40px;
 
     }
 
     .footer p {
         word-break: normal;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.23;
         color: #cccccc;
         text-align: center;
     }
     
+    .footer .cont {
+        width: auto;
+        margin: 0px;
+    }
+
     .footer h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.1;
         color: #ffffff;
         margin-bottom: 10px;
         text-align: center;
     }
+
 }
