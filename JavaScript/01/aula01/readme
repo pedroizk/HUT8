@@ -1,0 +1,7 @@
+We started leanrning about objects. From what the teacher said "Everything are objects". 
+
+The object is almost a structure from C, an array of  heterogeneous types.
+
+A object has properties that can be accessible 
+by the "object name" + "." + "name of the property" also a object can have methods, methods are functions.
+
