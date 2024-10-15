@@ -2,4 +2,5 @@ In this class we learn a bit more a bou events.
 It is said on the class that the most powerful thing on JavaScript is
 interacting with the css and html, making the page more fluid.
 
-Next thing we learned was the window method.
+Next thing we learned was the window object. 
+The window object refferenciates to the browser window, when someone interact with the browser you can use the window object to analyze it.
