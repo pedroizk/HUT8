@@ -1,11 +1,20 @@
-// Usando o forEach();
+const navUl = document.querySelectorAll("nav ul li a");
+newArray = Array.from(navUl);
 
-const lista = ["abacate", "banana", "morango"]
 
+function sorter(event) {
+    const item = event.target;
+    if(document.URL === item.href)
+    {
+        item.style.backgroundColor = "black";
+        item.style.color = "white";
 
-function adicionarBody(item) {
-    console.log(item)
+    }
+    else{
+        return console.log("Not this one");
+    }
 };
 
-
-lista.forEach(adicionarBody);
+for(let i = 0; i < newArray.length; i++) {
+    newArray[i].addEventListener('click', sorter);
+};
