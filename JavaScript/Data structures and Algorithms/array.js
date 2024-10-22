@@ -46,3 +46,10 @@ for (const item of array1) {
 
 
 // 6. map method
+const maping1 = array1.map((x) => x + 1);
+console.log(maping1) // takes a teporary variable as the array item.
+
+// Explanation Iterative methods
+/* Most iterative methods in JS receive a callback function as argument
+   1. The element, 2. the index, 3. the array
+*/

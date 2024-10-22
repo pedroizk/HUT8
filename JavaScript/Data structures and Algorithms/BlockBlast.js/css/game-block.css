@@ -1,0 +1,27 @@
+.gameBlock {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    width: 640px; 
+    height: 640px; 
+    background-color: #212121;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.gameBlock div {
+    border: 0.2px solid white; /* Add border to each grid item */
+}
+
+.game {
+    width: 100%;
+    display: flex;
+    align-content: center center;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
