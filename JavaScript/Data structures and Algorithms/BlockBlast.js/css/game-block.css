@@ -25,3 +25,30 @@ main {
     justify-content: center;
 }
 
+
+.randomBlock {
+    display: block;
+
+}
+
+section {
+    max-width: fit-content;
+}
+
+
+.randomBlock {
+    width: fit-content;
+    position: absolute;
+    top: 340px;
+    left: 105px;
+    width: 400px;
+    height: 400px;
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.randomBlock img {
+    position: relative;
+
+}
