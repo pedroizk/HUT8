@@ -1,0 +1,21 @@
+JS is:
+- A high level, interpreted proggraming language
+- Conforms to ECMAScript
+- Multi-paradigm -> functional, object oriented...
+- Runs on the browser (or server Node.js)
+
+-> This first part I will try to understand the basics of
+ 
+ * Variables and Data types
+ * Arrays
+ * Oject literals
+ * Methos for the data types
+ * Loops
+ * Conditionals 
+ * Functions 
+ * OOP
+ * DOM Selection
+ * DOM Manipulation
+ * Events
+ * Basic Form Validation
+ 
