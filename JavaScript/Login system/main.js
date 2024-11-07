@@ -37,7 +37,7 @@ function CreatePerson(email, password) {
 
 
 function login () {
-    for(let i = 0; i < localStorage.length -1; i++)
+    for(let i = 1; i < localStorage.length; i++)
     {
         let temp = JSON.parse(localStorage.getItem(`user_${i}`));
         if(temp.email === email.value && temp.password === password.value)
