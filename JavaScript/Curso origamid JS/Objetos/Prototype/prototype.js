@@ -27,3 +27,6 @@ hi.toUpperCase();
 hi.endsWith();
 // And much more, to all native types
 
+// Na aula 02 ele só explica os methodos nos objetos nativos, e como todos eles tem também prototypes
+
+// Aula 03 
